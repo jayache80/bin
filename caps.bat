@@ -1,2 +1,2 @@
-start "" "C:\Program Files (x86)\AutoHotkey\AutoHotkey.exe" %~dp0\capsctrlesc.ahk
+start "" "C:\Program Files\AutoHotkey\AutoHotkey.exe" %~dp0\capsctrlesc.ahk
 
