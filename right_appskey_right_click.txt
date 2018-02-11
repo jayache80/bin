@@ -1,0 +1,3 @@
+To properly use this, remap the right start button to be "Context menu" using a
+program like KeyTweak. This will not work if you've used the AutoHotKey script
+to remap right start button to Context Menu (AppsKey)
