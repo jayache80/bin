@@ -1,6 +1,7 @@
-#!/bin/env python2
+#!/usr/bin/env python3
 import socket
 import argparse
+import datetime
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-a", dest="eth_iface", help="Ethernet interface to bind with")
@@ -26,5 +27,6 @@ sock.bind((eth_iface, udp_port))
 
 while True:
     data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
-    print "received message:", data
+    print("message received from {0} at {1}".format( addr, datetime.datetime.now() ))
+    print("received message: {0}\n".format(data))
 
